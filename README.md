@@ -22,7 +22,7 @@ DataBase:MongoDB Atlas
 
 Authentication :FireBase Auth,Firebase Admin SDK,CORS,dotenv
 
-
+LiveclientLink:LiveServerLink:https://tour-management-server-side.vercel.app
 LiveServerLink:https://tour-management-server-side.vercel.app
 LiveClientLink:
 
