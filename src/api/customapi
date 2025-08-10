@@ -1,0 +1,9 @@
+import axios from "axios";
+import useAxiosSecure from "../Customhook/useAxiosSecure"
+import React from "react";
+const FeaturedApi=async()=>{
+    const response=await axios.get('https://tour-management-server-side.vercel.app/alltourpackage?feature=true')
+    return response.data;
+}
+
+export { FeaturedApi};
